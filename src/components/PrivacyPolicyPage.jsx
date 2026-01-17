@@ -190,7 +190,7 @@ const PrivacyPolicyPage = () => {
               <div className="space-y-2">
                 <p><strong>Wireless Tech Solution</strong></p>
                 <p>Email: <a href="mailto:wireless.solution26@gmail.com" className="text-green-600 hover:text-green-800 underline">wireless.solution26@gmail.com</a></p>
-                <p>Phone: <a href="tel:+15512021201" className="text-green-600 hover:text-green-800 underline">+1 (551) 202-1201</a></p>
+                <p>Phone: <a href="tel:+18628022720" className="text-green-600 hover:text-green-800 underline">+1 (862) 802-2720</a></p>
                 <p>Address: 85 Manor Drive Apt 2M, Newark, New Jersey 07106</p>
               </div>
             </div>
