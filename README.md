@@ -87,4 +87,3 @@ You can customize colors, fonts, and other design elements in `tailwind.config.j
 
 This project is created for Wireless Tech Solution.
 
-# Wireless-Tech-Solution

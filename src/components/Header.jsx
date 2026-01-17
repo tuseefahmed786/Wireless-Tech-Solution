@@ -15,28 +15,18 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="flex items-center">
-              {/* <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-green-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">CT</span>
-              </div> */}
-              <div className="ml-2">
-                <div className="text-green-400 font-bold text-lg">Wireless Tech Solution</div>
-                {/* <div className="text-white text-xs">Solution</div> */}
-              </div>
-            </div>
-          </div>
+          <a href="/" className="flex items-center">
+            <div className="text-green-400 font-bold text-lg">Wireless Tech Solution</div>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-6">
             <a href="/" className="text-green-400 hover:text-green-300 font-medium">
               Home
             </a>
-            <div className="relative group">
-              <a href="/web-development" className={`${isWebDevPage ? 'text-green-400' : 'hover:text-green-400'} font-medium flex items-center`}>
-                Web Development
-              </a>
-            </div>
+            <a href="/web-development" className={`${isWebDevPage ? 'text-green-400' : 'hover:text-green-400'} font-medium`}>
+              Web Development
+            </a>
             <a href="/graphic-design" className={`${isGraphicDesignPage ? 'text-green-400' : 'hover:text-green-400'} font-medium`}>
               Graphic Design
             </a>
